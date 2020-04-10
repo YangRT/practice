@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RectView">
+        <attr name="rect_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="HorizontalExpandMenu">
+        <attr name="back_color" format="color"/>
+        <attr name="stroke_size" format="dimension"/>
+        <attr name="stroke_color" format="color"/>
+        <attr name="corner_radius" format="dimension"/>
+        <attr name="button_style">
+            <enum name="right" value="0"/>
+            <enum name="left" value="1"/>
+        </attr>
+        <attr name="button_icon_size" format="dimension"/>
+        <attr name="button_icon_stroke_width" format="dimension"/>
+        <attr name="button_icon_color" format="color"/>
+        <attr name="expand_time" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="AbilityView">
+        <attr name="my_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="summitButton">
+        <attr name="background_color" format="color"/>
+        <attr name="android:text"/>
+        <attr name="android:textSize"/>
+        <attr name="strokeColor" format="color|reference"/>
+        <attr name="content_color" format="color|reference"/>
+        <attr name="radius" format="dimension|reference"/>
+        <attr name="rectwidth" format="dimension|reference"/>
+        <attr name="contentPaddingLR" format="dimension|reference"/>
+        <attr name="contentPaddingTB" format="dimension|reference"/>
+        <attr name="progressWidth" format="dimension|reference"/>
+        <attr name="backColor" format="color|reference"/>
+        <attr name="progressColor" format="color|reference"/>
+        <attr name="progressSecondColor" format="color|reference"/>
+        <attr name="loadSuccessDrawable" format="reference"/>
+        <attr name="loadErrorDrawable" format="reference"/>
+        <attr name="loadPauseDrawable" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="searchView">
+        <attr name="textSizeSearch" format="dimension"  />
+        <attr name="textColorSearch" format="color" />
+        <attr name="textHintSearch" format="string" />
+        <attr name="searchBlockHeight" format="dimension" />
+        <attr name="searchBlockColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="LikeView">
+        <attr name="bitmapResBefore" format="reference"/>
+        <attr name="bitmapResAfter" format="reference"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/pop_up_window_1"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btn_pic_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginBottom="1dp"
+        android:textSize="15sp"
+        android:textColor="#3c3c3c"
+        android:text="相 册"/>
+    <Button
+        android:id="@+id/btn_pic_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginBottom="1dp"
+        android:textSize="15sp"
+        android:textColor="#3c3c3c"
+        android:text="拍 照"/>
+    <Button
+        android:id="@+id/btn_pic_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginBottom="1dp"
+        android:textSize="15sp"
+        android:textColor="#3c3c3c"
+        android:text="取 消"/>
+</LinearLayout>

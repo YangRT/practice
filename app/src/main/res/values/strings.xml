@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">practice</string>
+    <string name="clear_history">清除历史记录</string>
+    <string name="add">加载插件</string>
+</resources>
